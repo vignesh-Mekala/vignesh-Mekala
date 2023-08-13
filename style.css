@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  background-color: lightcyan;
+  padding: 20px;
+}
+
+header img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+h1 {
+  margin: 10px 0;
+}
+
+.contact-info {
+  text-align: center;
+  padding: 20px;
+  background-color: silver;
+}
+
+.portfolio-item {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.portfolio-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.resume {
+  padding: 20px;
+  background-color: thistle;
+}
